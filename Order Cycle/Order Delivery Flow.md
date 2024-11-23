@@ -1,3 +1,7 @@
+![Flow](./Assets/AddOrderDeliveryFlow.png)
+
+
+``` flow
 flowchart TD
     B("Add Delivery") --> C{"Delivery Process"} & n8["Delivery Status"]
     C --> n1["Returned Back To Store"] & n4["Delivered"] & n5["Request Cancel"]
@@ -6,3 +10,4 @@ flowchart TD
     n4 --> n8
     n1 --> n8
     A --> n7["Order Status"]
+```
