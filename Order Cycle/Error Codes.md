@@ -50,3 +50,51 @@
 | SDX-90001 | WasfatyError |
 | SDX-90010 | LabayhError |
 | SDX-90310 | CanNotChangeDeliveryType |
+
+
+
+## Arbahi Error Codes 
+| Error Code Value | Error Code Name |
+|------------------|-----------------|
+| LOY-00001 | CustomerIsBlocked |
+| LOY-00002 | MobileAlreadyExists |
+| LOY-00003 | CountryCodeNotExists |
+| LOY-00004 | MobileFormatError |
+| LOY-00005 | CityCodeNotExists |
+| LOY-00006 | CustomerProfileNeedUpdate |
+| LOY-00007 | CustomerIsNotMemberType |
+| LOY-00010 | ActivityAlreadyPosted |
+| LOY-00011 | CustomerIsInactive |
+| LOY-00013 | ActivityAlreadyReversed |
+| LOY-00098 | NoBalanceForRedemption |
+| LOY-00099 | PostingActivityMinus |
+| LOY-00100 | CustomerNotExists |
+| LOY-00101 | CustomerArchived |
+| LOY-00130 | ReverseError |
+| LOY-00133 | ReverseRedemptionExceedOriginalActivity |
+| LOY-00332 | ActivityNotExists |
+| LOY-00333 | RequestIdShouldBeUnique |
+| LOY-00423 | ActivityNotRedeem |
+| LOY-00425 | OtpNotCorrect |
+| LOY-00428 | CancellationNotAccepted |
+| LOY-00429 | SameMobile |
+| LOY-00430 | ActivityCannotPosted |
+| LOY-00433 | ProfileNoExists |
+| LOY-00443 | ReferralCodeNoExists |
+| LOY-00453 | MemberBlockedReasonNoExists |
+| LOY-00426 | ActivityTypeNotExists |
+| LOY-00511 | InvalidToken |
+| LOY-00521 | IncorrectPassword |
+| LOY-00523 | TransferToSelf |
+| LOY-00533 | ReferenceActivityNotExists |
+| LOY-00534 | AmountIssue |
+| LOY-00600 | QitafRewardError |
+| LOY-00660 | ActivityTypeLimitReached |
+| LOY-00760 | SubActionTypeNotCorrect |
+| LOY-10001 | LoyInvoiceNotExists |
+| LOY-10003 | LoyInvoiceAlreadyProcessed |
+| LOY-10004 | LoyInvoiceAlreadyAssignedToMember |
+| LOY-07100 | MessageNotExists |
+| LOY-08001 | LimitReached |
+| LOY-00999 | FieldValueValidation |
+
