@@ -105,6 +105,15 @@ POST {{url}}/SdDocument/AddDocument
 | `PTPT`| PayTabs Payment     |
 | `PTQT`| Qitaf Payment       |
 | `PTTM`| Tamara Payment      |
+| `PTWL`| Wallet Payment      |
+| `PTHB`| HyperBill Payment   |
+| `PTRM`| Rajhi Mokafaa Payment   |
+| `PTMN`| Mobily Neqaty Payment   |
+|====|=====|
+| `FDEL`| Delivery Fees       |
+| `FCOD`| CashOnDelivery Fees |
+| `FBBD`| Beyond Border Fees |
+| `FICS`| International Custom Fees |
 
 ### Example Request
 
