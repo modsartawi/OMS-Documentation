@@ -66,11 +66,13 @@ POST {{url}}/SdDocument/AddDelivery
 
 ### Delivery Document Types
 
-| Document Type | Description |
-| ---           | ---         |
-| BB            | Beyond Borders |
-| DL         | Regular Delivery (Default) |
-| SP | Special Product |
+| Document Type | Description | Delivery Fees Conditions |
+| ---           | ---         | --- |
+| DL | Regular Delivery (Default) | `FDEL` Delivery Fees, `FCOD` CashOnDelivery Fees |
+| BB | Beyond Borders | `FBBD` Beyond Border Fees, `FICS` International Custom Fees |
+| SP | Special Product | `FSPD` Special Product Delivery Fees  |
+| VP | Virtual Product |  `FVPD` Virtual Product Delivery Fees |
+| GC | Gift Card | No FEES |
 
 <mark>*** Respnse will be the same as when creating Order but it will be refered to a delivery</mark>
 

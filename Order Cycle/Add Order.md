@@ -94,7 +94,7 @@ POST {{url}}/SdDocument/AddDocument
 | `paymentMethod`   | Payment method.                                       | String    | `ApplePay`, `CreditCard`, etc.            |
 | `cardType`        | Type of card.                                         | String    | `Visa`, `MasterCard`, etc.                |
 
-### Payment Types
+### Payment Types and Fees (Header Conditions)
 
 | Code  | Description         |
 |-------|---------------------|
@@ -114,6 +114,10 @@ POST {{url}}/SdDocument/AddDocument
 | `FCOD`| CashOnDelivery Fees |
 | `FBBD`| Beyond Border Fees |
 | `FICS`| International Custom Fees |
+| `FSPD`| Special Product Fees |
+| `FVPD`| Virtual Product Fees |
+|====|=====|
+| `HDF1`| Header Discount |
 
 ### Example Request
 
