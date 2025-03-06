@@ -58,11 +58,11 @@ POST {{url}}/SdDocument/AddDelivery
 | lines[].uom                | String   | Unit of measure                            | `EA`                           |
 | shippingAddress            | Object   | Shipping address details                   | Object containing address details         |
 | shippingAddress.cityName   | String   | City name                                  |                      |
-| shippingAddress.street1    | String   | Street address line 1                      |   |
-| shippingAddress.street2    | String   | Street address line 2                      |  |
-| shippingAddress.phone1     | String   | Phone number                               |  |
-| shippingAddress.gpsLat     | Number   | GPS latitude                               |  |
-| shippingAddress.gpsLon     | Number   | GPS longitude                              |  |
+| shippingAddress.street1    | String   | Street address line 1                      |                      |
+| shippingAddress.street2    | String   | Street address line 2                      |                      |
+| shippingAddress.phone1     | String   | Phone number                               |                      |
+| shippingAddress.gpsLat     | Number   | GPS latitude                               |                      |
+| shippingAddress.gpsLon     | Number   | GPS longitude                              |                      |
 
 ### Delivery Document Types
 
